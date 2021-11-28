@@ -1,0 +1,41 @@
+Coding:
+package myWhile;
+
+public class NoteSlide8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int i = 0;
+		int j = 10;
+		int k = 20;
+		
+		
+		
+		do {
+			System.out.print(i + " ");
+			i++;
+		} while (i <= 3);
+		
+		System.out.println();
+		
+		do {
+			
+			System.out.print(j +" ");
+			j = j+ 1;
+		}while (j < 20);
+		
+		System.out.println();
+		
+		do {
+			
+			System.out.print(k +" ");
+			k--;
+		}while (k > 10);
+
+	}
+
+}
+
+Output:
+12341011121314151617181920191817161514131211
