@@ -1,0 +1,59 @@
+Coding:
+package RepetitionAndSelection;
+import java.util.Scanner;
+public class Excersise1 {
+	private static Scanner sc;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		sc = new Scanner (System.in);
+		int number = (int)(Math.random() * 101);
+		int guess = -1;
+		while(number != guess) {
+		
+			System.out.println("Enter a random number (0 - 101)=");
+		    guess = sc.nextInt();
+		
+		if (guess == number) {
+			System.out.println("Congratulation!");
+		}
+		
+		else if ( guess > number) {
+			System.out.println("number to high");	
+		}
+		
+		else 
+			System.out.println("number to low");
+		}
+
+	}
+
+}
+
+
+Output:
+Enter a random number (0 - 101)=
+90
+number to high
+Enter a random number (0 - 101)=
+40
+number to high
+Enter a random number (0 - 101)=
+10
+number to low
+Enter a random number (0 - 101)=
+30
+number to high
+Enter a random number (0 - 101)=
+20
+number to high
+Enter a random number (0 - 101)=
+12
+number to low
+Enter a random number (0 - 101)=
+15
+number to low
+Enter a random number (0 - 101)=
+17
+Congratulation!
