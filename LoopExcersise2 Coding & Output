@@ -1,0 +1,30 @@
+Coding:
+package RepetitionAndSelection;
+
+public class LoopExcersise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int num;
+		for (num = 2; num < 100; num++) {
+			
+			num = num * 2;
+			if (num < 15)
+				System.out.println("nombor adalah lebih kecil daripada 15:" + num);
+			else if(num > 15)
+				System.out.println("nombor adalah lebih besar daripada 15:" + num);
+		}
+
+	}
+
+}
+
+
+Output:
+nombor adalah lebih kecil daripada 15:4
+nombor adalah lebih kecil daripada 15:10
+nombor adalah lebih besar daripada 15:22
+nombor adalah lebih besar daripada 15:46
+nombor adalah lebih besar daripada 15:94
+nombor adalah lebih besar daripada 15:190
