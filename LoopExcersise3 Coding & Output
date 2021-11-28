@@ -1,0 +1,35 @@
+Coding:
+package RepetitionAndSelection;
+
+public class LoopExcersise3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i = 1;
+		do {
+			
+			
+			if((i % 2) == 0)
+				System.out.println("value of i:"+ i + " || value i %2=" + i%2 );
+			
+			else if((i%2) !=0)
+				System.out.println("value of i:"+ i + " || value i %2=" + i%2 );
+			i++;
+		
+		}while(i < 10);
+
+	}
+
+}
+
+
+Output:
+value of i:1 || value i %2=1
+value of i:2 || value i %2=0
+value of i:3 || value i %2=1
+value of i:4 || value i %2=0
+value of i:5 || value i %2=1
+value of i:6 || value i %2=0
+value of i:7 || value i %2=1
+value of i:8 || value i %2=0
+value of i:9 || value i %2=1
